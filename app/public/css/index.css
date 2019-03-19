@@ -1,0 +1,128 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    padding-bottom: 48px;
+}
+
+.header {
+    height: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    align-items: center;
+    background-color: #2196F3;
+    color: #FFF;
+}
+
+.header .circle {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    background-color: #FFF;
+    margin-right: 8px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cardapio-header {
+    text-align: center;
+    padding: 32px;
+}
+
+.cardapio-header h1 {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0,0,0.87);
+}
+
+.cardapio-header h2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #2196F3;
+}
+
+.content {
+    padding: 0 32px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.prato {
+    width: 50%;
+    min-height: 100px;
+    border: 1px solid #CDCDCD;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.prato h1 {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.select-prato {
+    width: 100%;   
+}
+
+button {
+    height: 42px;
+    padding: 0 12px;
+    border: none;
+    background-color: #2196F3;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    border-radius: 2px;
+}
+.cancelar {
+    margin-top: 8px;
+}
+
+footer {
+    width: 100%;
+    text-align: right;
+    padding: 0 16px;
+}
+
+.page {
+    min-width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    overflow-x: auto;
+    position: relative;
+}
+
+.prev {
+    position: fixed;
+    left: 0;
+    top: 50%;
+}
+
+.next {
+    position: fixed;
+    right: 0;
+    top: 50%;
+}
