@@ -1,6 +1,8 @@
 # Rango 
 baixe o Node.js: https://nodejs.org/en/
-Assim que baixar o projeto use o cmd para ate pasta raiz e de o comando --> npm i --save   
+
+Assim que baixar o projeto use o cmd para ate pasta raiz e de o comando --> npm i --save  
+
 depois de o comando --> node app
 
 Rango é um nome provisório para este sistema, que fara o gerenciamento de almoço. 
