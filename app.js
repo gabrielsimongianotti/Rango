@@ -4,11 +4,11 @@ var app = require('./config/server')
 //     console.log("server ON");
 // });
 
-app.listen(4000, function(){
+app.listen(3000, function () {
     console.log("server ON");
     console.log("▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄");
     console.log("░░░░ ░░░░▀█▄▀▄▀██████░▀█▄▀▄▀████▀ ");
     console.log("░░░ ░░░░░░░▀█▄█▄███▀░░░▀██▄█▄█▀");
     console.log(" ")
-    console.log("acesse esse link --> http://localhost:4000/");
+    console.log("acesse esse link --> http://localhost:3000/");
 });
