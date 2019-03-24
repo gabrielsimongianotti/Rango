@@ -3,6 +3,7 @@ var consign = require('consign');
 var bodyParser = require('body-parser');
 var expressValidator = require('express-validator'); 
 
+
 var app = express(); 
 // a engine do ejs vai processar o html da pasta views  
 app.set('view engine', 'ejs');
