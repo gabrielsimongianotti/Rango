@@ -6,10 +6,11 @@ module.exports = function(){
 }
 var connMySQL = function(){
     //conexão com banco mysql
-    console.log("conexao com banco foi estabelecida");
+    console.log("conexao com banco foi estabelecida com o banco online");
     return mysql.createConnection({
-        host: 'localhost',
-        user: 'root',
-        password: '123g'
+        host: 'mysql995.umbler.com',
+        user: 'testejs',
+        password: '12345678teste',
+        database: "testeunbler"
     });
 }
