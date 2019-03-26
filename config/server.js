@@ -18,7 +18,7 @@ app.use(expressValidator());
 //inclui modulos routes dentro do servidor
 consign()
     .include('app/routes')
-    .then('config/dbConnection.js')//chama o dbConnection.js
+    //.then('config/dbConnection.js')//chama o dbConnection.js
     .then('app/models')
     .then('app/controllers')
     .into(app);

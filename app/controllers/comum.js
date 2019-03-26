@@ -1,3 +1,4 @@
 module.exports.almoco = function(application, req, res){
-    res.render('almoco/cardapio');
+    var dadosdobanco= {nome: 'Nome do usuario', pratoPrincipal:[['file'],['picanha'],['macarrão']], dia: 12}
+    res.render('almoco/cardapio',{dados:dadosdobanco});
 }

@@ -16,7 +16,7 @@
 <body>
 
     <header class="header">
-        <h1>Title</h1>
+        <h1><%= dados.nome %></h1>
         <div class="flex-center">
             <div class="circle"></div>
             <div class="menu">
@@ -43,7 +43,7 @@
 
             <section class="cardapio-header">
                 <h1>Cardápio</h1>
-                <h2>Segunda 18/03</h2>
+                <h2>Segunda <%= dados.dia %>/03</h2>
             </section>
 
             <section class="content">
@@ -56,9 +56,9 @@
                     <span>Guarnição</h1>
 
                         <select class="select-prato">
-                            <option value="a">das</option>
-                            <option value="a">das</option>
-                            <option value="a">das</option>
+                            <% for(var i =0;i< dados.pratoPrincipal.length; i++ ){ %>
+                            <option value="a"><%= dados.pratoPrincipal[i] %></option>
+                            <% }%>
                         </select>
                 </div>
 
