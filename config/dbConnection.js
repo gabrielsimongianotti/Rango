@@ -9,8 +9,9 @@ var connMySQL = function(){
     console.log("conexao com banco foi estabelecida com o banco online");
     return mysql.createConnection({
         host: 'mysql995.umbler.com',
-        user: 'testejs',
-        password: '12345678teste',
-        database: "testeunbler"
+        user: 'bancosmn',
+        password: 'smn0K3NOis',
+        database: "smn",
+        port:41890
     });
 }
